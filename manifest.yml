@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ProjetoLM-teste
+  host: ProjetoLM-teste
+  disk_quota: 1024M
+  services:
+  - ProjetoLM-teste-personality_insights
